@@ -18,11 +18,6 @@ header{
     background-color: rgb(41, 62, 79);
     height: 100px;
 }
-.container_menu{
-    width: 100%;
-    display: flex;
-    justify-content: end;
-}
 
 
 /* tablet */
@@ -47,20 +42,62 @@ header{
     
 }
 
-/* /header */
+/* fine header */
 
 /* mian */
 
     /* jumbotron */
     #jumbotron{
         background-color: rgb(0, 190, 157);
-        padding: 20px 0;
+        padding: 30px 0;
         text-align: center;
     }
 
 
 
-    /* /jumbotron */
+    /* fine jumbotron */
+
+
+    /* portgolio */
+    
+    #portfolio{
+        padding: 30px 0;
+    }
+
+
+    .red{
+        background-color: rgb(197	69	99	);
+    }
+    .azure-green{
+        background-color: rgb(0	166	180	);
+    }
+    .black{
+        background-color: rgb(21	15	15	);
+    }
+    .azure{
+        background-color: rgb(0	133	190	);
+    }
+    .blue{
+        background-color: rgb(16	57	176	);
+    }
+    .gray{
+        background-color: rgb(207	177	164	);
+    }
+
+
+    .circle{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        
+    }
+
+
+    /* fine portgolio */
+
+/* fine mian */
+
+
 /* debug */
 
 [class*="col"]{
@@ -80,32 +117,36 @@ header{
     background-color: lightgrey;
     height: 30px;
     width: 50px;
+    margin: 0 0 0 auto;
 }
 
 .debug_menu{
     background-color: rgb(89, 87, 87);
     height: 30px;
     width: 150px;
+    margin-left: auto;
 }
 
 .debug_img{
     height: 100px;
     width: 100px;
     background-color: blue;
-    margin: 0 auto 10px auto;
+    margin: 0 auto 20px auto;
 }
 .debug_title{
     height: 30px;
     width: 300px;
     background-color: rgb(255, 255, 255);
-    margin: 0 auto 10px auto;
+    border: 1px solid black;
+    margin: 0 auto 20px auto;
 
 }
 .debug_line{
-    height: 2px;
+    height: 3px;
     width: 200px;
     background-color: rgb(255, 255, 255);
-    margin: 0 auto 10px auto;
+    border: 1px solid black;
+    margin: 0 auto 20px auto;
 
 }
 .debug_subtitle{
@@ -114,4 +155,14 @@ header{
     background-color: rgb(255, 255, 255);
     margin: 0 auto 10px auto;
 
+}
+
+.debug_item{
+    max-width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    margin: 0 auto 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
