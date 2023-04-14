@@ -5,6 +5,7 @@
 .mio_container{
     width: 90%;
     margin: 0 auto;
+    text-align: center;
 }
 
 /* header */
@@ -47,6 +48,19 @@ header{
 }
 
 /* /header */
+
+/* mian */
+
+    /* jumbotron */
+    #jumbotron{
+        background-color: rgb(0, 190, 157);
+        padding: 20px 0;
+        text-align: center;
+    }
+
+
+
+    /* /jumbotron */
 /* debug */
 
 [class*="col"]{
@@ -56,7 +70,7 @@ header{
 
 
 
-.debug_title{
+.debug_logo{
     background-color: lightgrey;
     height: 30px;
     width: 250px;
@@ -72,4 +86,32 @@ header{
     background-color: rgb(89, 87, 87);
     height: 30px;
     width: 150px;
+}
+
+.debug_img{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 0 auto 10px auto;
+}
+.debug_title{
+    height: 30px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto 10px auto;
+
+}
+.debug_line{
+    height: 2px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto 10px auto;
+
+}
+.debug_subtitle{
+    height: 15px;
+    width: 220px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto 10px auto;
+
 }
