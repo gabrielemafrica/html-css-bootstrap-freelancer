@@ -5,7 +5,10 @@
 .mio_container{
     width: 90%;
     margin: 0 auto;
-    text-align: center;
+}
+.mio_container_slim{
+    width: 70%;
+    margin: 0 auto;
 }
 
 /* header */
@@ -38,6 +41,9 @@ header{
 
     .mio_container{
         width: 70%;
+    }
+    .mio_container_slim{
+        width: 60%;
     }
     
 }
@@ -95,13 +101,29 @@ header{
 
     /* fine portgolio */
 
+
+
+
+    /* about */
+    
+    #about{
+        background-color: rgb(0, 190, 157);
+        padding: 30px 0;
+    }
+
+
+
+
+
+
+    /* fine about */
 /* fine mian */
 
 
 /* debug */
 
 [class*="col"]{
-    background-color: lightpink;
+    background-color: rgba(255, 182, 193, 0.5);
     border: 2px solid yellowgreen;
 }
 
@@ -141,6 +163,7 @@ header{
     margin: 0 auto 20px auto;
 
 }
+
 .debug_line{
     height: 3px;
     width: 200px;
@@ -165,4 +188,20 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+.debug_txt{
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+.debug_button{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    margin: 0 auto 20px auto;
+
 }
