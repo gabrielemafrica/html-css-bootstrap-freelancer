@@ -1,0 +1,75 @@
+.off{
+    display: none;
+}
+
+.mio_container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* header */
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(41, 62, 79);
+    height: 100px;
+}
+.container_menu{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+
+/* tablet */
+
+
+@media only screen and (min-width:768px){
+
+    .on{
+        display: none;
+    }
+
+    .off{
+        display: block;
+    }
+    
+}
+@media only screen and (min-width:992px){
+
+    .mio_container{
+        width: 70%;
+    }
+    
+}
+
+/* /header */
+/* debug */
+
+[class*="col"]{
+    background-color: lightpink;
+    border: 2px solid yellowgreen;
+}
+
+
+
+.debug_title{
+    background-color: lightgrey;
+    height: 30px;
+    width: 250px;
+}
+
+.debug_hmenu{
+    background-color: lightgrey;
+    height: 30px;
+    width: 50px;
+}
+
+.debug_menu{
+    background-color: rgb(89, 87, 87);
+    height: 30px;
+    width: 150px;
+}
