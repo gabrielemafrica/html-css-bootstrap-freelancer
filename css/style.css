@@ -143,11 +143,55 @@ header{
 /* fine mian */
 
 
+/* footer */
+
+footer{
+    color: white;
+    text-align: center;
+}
+
+footer h5{
+    font-size: 16px;
+}
+    /* footer top */
+    #footer_top{
+        background-color: rgb(54, 85, 108);
+    }
+
+    .address{
+        margin-bottom: 30px;
+    }
+    .social{
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+    }
+    .circle.little{
+        height: 50px;
+        width: 50px;
+        border: 1px solid white;
+
+    }
+
+
+    /* fine footer top */
+
+    /* footer bottom */
+    #footer_bottom{
+        background-color: rgb(41, 62, 79);
+    }
+
+    /* fine footer bottom */
+
+
+/* fine footer */
+
+
 /* debug */
 
 [class*="col"]{
-    background-color: rgba(255, 182, 193, 0.3);
-    border: 2px solid rgba(255, 255, 255, 0.5);
+    /* background-color: rgba(255, 182, 193, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.5); */
 }
 
 
