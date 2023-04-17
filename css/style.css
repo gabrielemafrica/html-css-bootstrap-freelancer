@@ -4,7 +4,7 @@
 
 .mio_container{
     width: 90%;
-    padding: 30px 0;
+    padding: 20px 0;
     margin: 0 auto;
 }
 .mio_container.slim{
@@ -17,10 +17,26 @@
 
 
 header{
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     background-color: rgb(41, 62, 79);
     height: 100px;
+}
+
+header .nav-link{
+ text-align: end;
+}
+
+header .navbar-toggler{
+    border-color: gray;
+}
+
+header .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+header .navbar-toggler-icon{
+    filter: invert(1);
 }
 
 
@@ -56,10 +72,16 @@ header{
     /* jumbotron */
     #jumbotron{
         background-color: rgb(0, 190, 157);
-        text-align: center;
     }
 
-
+    .avatar{
+        max-width: 200px;
+        /* margin: 0 auto 20px auto; */
+    }
+    .linea{
+        height: 3px;
+        width: 15%;
+    }
 
     /* fine jumbotron */
 
@@ -206,30 +228,16 @@ footer h5{
     background-color: lightgrey;
     height: 30px;
     width: 50px;
-    margin: 0 0 0 auto;
+    /* margin: 0 0 0 auto; */
 }
 
 .debug_menu{
     background-color: rgb(89, 87, 87);
     height: 30px;
     width: 150px;
-    margin-left: auto;
+    /* margin-left: auto; */
 }
 
-.debug_img{
-    height: 100px;
-    width: 100px;
-    background-color: blue;
-    margin: 0 auto 20px auto;
-}
-.debug_title{
-    height: 30px;
-    width: 300px;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid black;
-    margin: 0 auto 20px auto;
-
-}
 
 .debug_line{
     height: 3px;
@@ -239,19 +247,13 @@ footer h5{
     margin: 0 auto 20px auto;
 
 }
-.debug_subtitle{
-    height: 15px;
-    width: 220px;
-    background-color: rgb(255, 255, 255);
-    margin: 0 auto 10px auto;
 
-}
 
 .debug_item{
     max-width: 100%;
     height: 200px;
     border-radius: 5px;
-    margin: 0 auto 20px auto;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
