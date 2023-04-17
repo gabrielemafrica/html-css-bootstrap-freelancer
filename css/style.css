@@ -86,40 +86,7 @@ header .navbar-toggler-icon{
     /* fine jumbotron */
 
 
-    /* portgolio */
-    
-    #portfolio{
-        
-    }
-
-
-    .red{
-        background-color: rgb(197	69	99	);
-    }
-    .azure-green{
-        background-color: rgb(0	166	180	);
-    }
-    .black{
-        background-color: rgb(21	15	15	);
-    }
-    .azure{
-        background-color: rgb(0	133	190	);
-    }
-    .blue{
-        background-color: rgb(16	57	176	);
-    }
-    .gray{
-        background-color: rgb(207	177	164	);
-    }
-
-
-    .circle{
-        height: 150px;
-        width: 150px;
-        border-radius: 50%;
-        
-    }
-
+ 
 
     /* fine portgolio */
 
@@ -143,19 +110,9 @@ header .navbar-toggler-icon{
 
     /* contact me */
 
-    #compila{
-        color: gray;
-        margin-bottom: 20px;
-    }
-
-    .mio_form{
-        border-bottom: 1px solid gray;
-        padding: 20px 0;
-    }
-    .mio_form.big{
-        
-        padding-bottom: 100px;
-    }
+.green{
+    background-color: rgb(0, 190, 157);
+}
 
 
     

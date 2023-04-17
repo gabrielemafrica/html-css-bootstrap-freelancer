@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Bootstrap</title>
 </head>
@@ -76,7 +77,7 @@
             <!-- /jumbotron -->
             
             <!-- portfolio -->
-            <section id="portfolio" class="text-center">
+            <section id="portfolio" class="text-center pt-5 pb-5">
                 <div class="mio_container">
                     <h2>PORTFOLIO</h2>
                     <!-- stella -->
@@ -123,25 +124,35 @@
             <!-- /portfolio -->
             
             <!-- about -->
-            <section id="about">
+            <section id="about" class="text-center text-light pt-5 pb-3">
                 <div class="mio_container slim">
-                    <div class="debug_title"></div>
-                    <div class="debug_line"></div>
+                    <h2>ABOUT</h2>
+                    <!-- stella -->
+                    <div class="d-flex justify-content-center align-items-center mb-4">
+                        <div class="linea bg-white rounded-pill"></div>
+                        <h1 class="ms-2 me-2">&starf;</h1>
+                        <div class="linea bg-white rounded-pill"></div>
+                    </div>
+                    <!-- /stella -->
                     
-                    <div class="row">
+                    <div class="row text-start">
                         <div class="col-12 col-md-6">
                             <div class="debug_txt">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis repudiandae fugiat expedita, iste eveniet dignissimos fugit repellat dolores sequi amet! Saepe eveniet quidem a consequatur distinctio, aliquid necessitatibus blanditiis eos.
+                                Freelancer is a free bootstrap theme created by Start Bootstrap. The complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
                             <div class="debug_txt">
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis repudiandae fugiat expedita, iste eveniet dignissimos fugit repellat dolores sequi amet! Saepe eveniet quidem a consequatur distinctio, aliquid necessitatibus blanditiis eos.
+                                Whether you're a studentlooking to showcase your work, a professional looking to attract clients, or a graphic artists looking to share your project, this template is the perfect starting point!
                             </div>
                         </div>
                     </div>
                     
-                    <div class="debug_button"></div>
+                    <button type="button" class="btn btn-outline-light mt-4">
+                        <i class="fa-sharp fa-solid fa-download"></i>
+                        Download
+                    </button>
+
                     
                     
                 </div>
@@ -149,22 +160,32 @@
             <!-- /about -->
             
             <!-- contact me -->
-            <section id="contact_me">
+            <section id="contact_me" class="text-center pt-5 pb-4">
                 <div class="mio_container slim">
-                    <div class="debug_title"></div>
-                    <div class="debug_line"></div>
-                    
-                    <div id="compila">
-                        
-                        <div class="mio_form"><h4>Name</h4></div>
-                        <div class="mio_form"><h4>Email Address</h4></div>
-                        <div class="mio_form"><h4>Phone Number</h4></div>
-                        <div class="mio_form big"><h4>Message</h4></div>
-                        
+                    <h2>CONTACT ME</h2>
+                    <!-- stella -->
+                    <div class="d-flex justify-content-center align-items-center mb-4">
+                        <div class="linea bg-black rounded-pill"></div>
+                        <h1 class="ms-2 me-2">&starf;</h1>
+                        <div class="linea bg-black rounded-pill"></div>
                     </div>
+                    <!-- /stella -->
+                    <form action="" method="post" class="text-start">
+                      
+
+                        <input class="form-control-lg w-100 border-0 border-bottom rounded-0" type="text" placeholder="Nome">
+
                     
-                    <div class="debug_button left"></div>
+                        <input class="form-control-lg w-100 border-0 border-bottom rounded-0" type="email" placeholder="Email Address">
+
+                        <input class="form-control-lg w-100 border-0 border-bottom rounded-0" type="text" placeholder="Phone Number">
+
+                        <textarea class="form-control-lg w-100 border-0 border-bottom rounded-0" type="text-area" placeholder="Message"></textarea>
+                            
                     
+                        <button type="submit" class="btn btn-outline-light mt-3 green ">Send</button>
+
+                    </form>
                     
                 </div>
                 
