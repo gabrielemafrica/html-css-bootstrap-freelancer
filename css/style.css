@@ -88,9 +88,6 @@ header .navbar-toggler-icon{
 
  
 
-    /* fine portgolio */
-
-
 
 
     /* about */
@@ -126,29 +123,22 @@ header .navbar-toggler-icon{
 
 footer{
     color: white;
-    text-align: center;
 }
 
 footer h5{
     font-size: 16px;
 }
+
     /* footer top */
     #footer_top{
         background-color: rgb(54, 85, 108);
     }
 
-    .address{
-        margin-bottom: 30px;
-    }
-    .social{
-        display: flex;
-        justify-content: center;
-        gap: 5px;
-    }
+
+
     .circle.little{
         height: 50px;
         width: 50px;
-        border: 1px solid white;
 
     }
 
@@ -165,74 +155,4 @@ footer h5{
 
 /* fine footer */
 
-
-/* debug */
-
-[class*="col"]{
-    /* background-color: rgba(255, 182, 193, 0.3);
-    border: 2px solid rgba(255, 255, 255, 0.5); */
-}
-
-
-
-.debug_logo{
-    background-color: lightgrey;
-    height: 30px;
-    width: 250px;
-}
-
-.debug_hmenu{
-    background-color: lightgrey;
-    height: 30px;
-    width: 50px;
-    /* margin: 0 0 0 auto; */
-}
-
-.debug_menu{
-    background-color: rgb(89, 87, 87);
-    height: 30px;
-    width: 150px;
-    /* margin-left: auto; */
-}
-
-
-.debug_line{
-    height: 3px;
-    width: 200px;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid black;
-    margin: 0 auto 20px auto;
-
-}
-
-
-.debug_item{
-    max-width: 100%;
-    height: 200px;
-    border-radius: 5px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.debug_txt{
-    margin-bottom: 20px;
-    color: white;
-}
-
-
-.debug_button{
-    height: 30px;
-    width: 100px;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid black;
-    margin: 0 auto 20px auto;
-
-}
-
-.debug_button.left{
-    margin: 0;
-}
 
